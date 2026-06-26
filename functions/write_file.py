@@ -1,5 +1,4 @@
 import os.path
-from encodings import utf_8
 
 
 def write_file(working_directory: str, file_path: str, content: str) -> str | None:

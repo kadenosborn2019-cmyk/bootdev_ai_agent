@@ -1,10 +1,11 @@
 [project]
 name = "bootdev-ai-agent"
 version = "0.1.0"
-description = "Add your description here"
+description = "educational course teaching the basics of setting up an ai adgent with an avaliable ai api"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "google-genai==1.12.1",
+    "protobuf>=7.35.1",
     "python-dotenv==1.1.0",
 ]
